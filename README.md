@@ -1,8 +1,10 @@
 # Aggregate-function-in-SQL
 INTRODUCTION
+
 Aggregate functions in SQL are used to perform calculations on a set of values and return a single result. These functions operate on a group of rows and produce a single value as output. Some common aggregate functions in SQL include: COUNT, SUM, MAX, MIN, AVERAGE
 
 WHAT AN AGGREGATE FUNCTION IN SQL?
+
 An aggregate function in SQL returns one value after calculating multiple values of a column. We often use aggregate functions with the GROUP BY and HAVING clauses of the SELECT statement.
 There are 5 types of SQL aggregate functions:
 Count()
@@ -12,7 +14,9 @@ Min()
 Max()
 ![agg fun](https://github.com/adepel80/Aggregate-function-in-SQL/assets/123180341/e83c7274-b515-4d04-b8bb-6cae2cace238)
 
+
 COLUMN REFERENCING
+
 In SQL, aggregate functions are used to calculate a set of values and return a single value. When using aggregate functions in SQL, it is crucial to understand column references. A column reference is a name containing the data you want to aggregate. To use an aggregate function with a column reference, specify the column's name in the function's parentheses. For example, to find the average salary of employees in a table called "employees", you would use the AVG function with the column reference "salary" like this: 
 
 SELECT AVG (salary)
