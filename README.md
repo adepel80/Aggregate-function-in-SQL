@@ -20,7 +20,9 @@ COLUMN REFERENCING
 In SQL, aggregate functions are used to calculate a set of values and return a single value. When using aggregate functions in SQL, it is crucial to understand column references. A column reference is a name containing the data you want to aggregate. To use an aggregate function with a column reference, specify the column's name in the function's parentheses. For example, to find the average salary of employees in a table called "employees", you would use the AVG function with the column reference "salary" like this: 
 
 SELECT AVG (salary)
+
 FROM employees; 
+
 
 Using column aliases instead of column references is also possible for a more readable code. However, understanding column references is essential when working with SQL aggregate functions.
 ![group agg order aliases](https://github.com/adepel80/Aggregate-function-in-SQL/assets/123180341/7e416d24-175d-4b6f-8750-fd6f5d4a3228)
